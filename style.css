@@ -81,7 +81,7 @@ main {
 .comic-page {
   width: 100%;
   max-width: 700px;
-  border: 3px solid #e7ecef;
+  border: 3px solid #52617e;
   border-radius: 6px;
 }
 
@@ -115,7 +115,7 @@ p {
 }
 
 .next-prev {
-  background-color: #1c7293;
+  background-color: #478198;
   width: 300px;          
   margin: 20px auto;    
   text-align: center;
