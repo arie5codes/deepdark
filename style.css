@@ -94,7 +94,6 @@ main {
   height: 200px;
   border-radius: 45%;
   margin-top: 10%;
-  border: 3px solid #3F612D;
   box-shadow: 50px 50px 50px #87b38d,
               -50px -50px 50px #87b38d;
 }
