@@ -1,0 +1,169 @@
+body {
+  font-family: 'Fredericka the Great';
+  background-color: #450920;
+  margin: 0;
+  padding: 0;
+  color: #1F0812;
+}
+
+.about-back {
+ background-color: #132a13;
+}
+
+.comic-back {
+ background-color: #33415c;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 1.2em;
+  color: #63b4d1;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #63b4d1;
+}
+
+.favorite-comic {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.featured-comic {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.featured-comic:hover {
+  transform: scale(1.05);
+}
+
+
+nav {
+  background-color: #fff1d0;
+  padding: 2em;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 50px;
+  font-weight: bold;
+  display: inline;
+  font-size: 1.5em;
+}
+
+nav a.active,
+nav a:hover {
+  text-decoration: wavy underline;
+  background-color: #fefae0;
+  padding: 6px 10px;         
+  border-radius: 4px;   
+  transition: all 0.2s ease-in-out;
+}
+
+main {
+  padding: 2em;
+  max-width: 900px;
+  margin: auto;
+}
+
+.comic-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.comic-page {
+  width: 100%;
+  max-width: 700px;
+  border: 3px solid #175676;
+  border-radius: 6px;
+}
+
+.about-page {
+  text-align: center;  
+}
+
+.profile-pic {
+  width: 280px;
+  height: 200px;
+  border-radius: 45%;
+  border: 3px solid #b5c99a;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px #136f63,
+              -10px -10px 10px #136f63;
+}
+
+h1, h2 {
+  font-family: 'Germania One';
+  font-size: 3.5em;
+  background-image: url("https://cdn.glitch.global/2cf440f5-4b9b-4e81-8f8d-53c69905a712/trees.jpeg?v=1745325799799");
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1.5em;
+  color: #b5c99a;
+}
+
+.next-prev {
+  background-color: #1c7293;
+  width: 300px;          
+  margin: 20px auto;    
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;        
+}
+
+.previous {
+    display: inline-block;
+      padding: 20px;
+      background-color: #1c7293;
+      color: #191516;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Grandstander', cursive;
+      font-size: 1.3em;
+  
+}
+
+.next {
+   display: inline-block;
+      padding: 20px;
+      background-color: #1c7293;
+      color: #191516;
+      text-decoration: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-family: 'Grandstander', cursive;
+      font-size: 1.3em;
+  
+}
+
+.next:hover, .previous:hover, .startover:hover {
+    color: white;
+    transition: all 0.2s ease-in-out;
+  
+}
+
+.startover {
+      display: inline-block;
+      padding: 20px;
+      background-color: #1c7293;
+      color: #191516;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: 'Grandstander', cursive;
+      font-size: 1.3em;
+  
+}
