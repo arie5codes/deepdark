@@ -93,6 +93,7 @@ main {
   width: 280px;
   height: 200px;
   border-radius: 45%;
+  padding-top: 10px;
   border: 3px solid #b5c99a;
   margin-bottom: 10px;
   box-shadow: 10px 10px 10px #136f63,
