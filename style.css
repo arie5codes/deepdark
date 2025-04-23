@@ -102,6 +102,7 @@ main {
 h1, h2 {
   font-family: 'Germania One';
   font-size: 3.5em;
+  padding: 10px;
   background-image: url("https://cdn.glitch.global/2cf440f5-4b9b-4e81-8f8d-53c69905a712/trees.jpeg?v=1745325799799");
   background-size: cover;
   background-clip: text;
