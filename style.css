@@ -135,9 +135,8 @@ h1, h2 {
   color: transparent;
 }
 
-h3 {
+.song {
   font-family: 'Grandstander', cursive;
-  font-size: large;
   color: #dcda63;
 }
 
