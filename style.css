@@ -138,8 +138,9 @@ h1, h2 {
 }
 
 h3 {
+  font-family: 'Fredericka the Great';
   font-size: medium;
-  color: #bdbc5f;
+  color: #dcda63;
 }
 
 p {
