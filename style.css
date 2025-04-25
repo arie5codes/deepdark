@@ -122,7 +122,6 @@ main {
   100% { transform: translateY(0); }
 }
 
-
 h1, h2 {
   font-family: 'Germania One';
   font-size: 3.5em;
@@ -140,7 +139,7 @@ p {
 }
 
 .next-prev {
-  background-color: #478198;
+  background-color: #1c7293;
   width: 300px;          
   margin: 20px auto;    
   text-align: center;
