@@ -151,7 +151,7 @@ p {
 }
 
 .next-prev {
-  background-color: #65779c;
+  background-color: #D2A047;
   width: 300px;          
   margin: 20px auto;    
   text-align: center;
@@ -162,7 +162,7 @@ p {
 .previous {
     display: inline-block;
       padding: 20px;
-      background-color: #65779c;
+      background-color: #D2A047;
       color: #191516;
       text-decoration: none;
       border-radius: 5px;
@@ -175,7 +175,7 @@ p {
 .next {
    display: inline-block;
       padding: 20px;
-      background-color: #65779c;
+      background-color: #D2A047;
       color: #191516;
       text-decoration: none;
       border-radius: 10px;
@@ -194,7 +194,7 @@ p {
 .startover {
       display: inline-block;
       padding: 20px;
-      background-color: #65779c;
+      background-color: #D2A047;
       color: #191516;
       text-decoration: none;
       border-radius: 5px;
