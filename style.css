@@ -69,6 +69,7 @@ main {
   padding: 2em;
   max-width: 900px;
   margin: auto;
+  border-radius: 20%;
 }
 
 .comic-container {
@@ -91,24 +92,30 @@ main {
 
 .container {
   position: relative;
-  width: 300px; 
-  height: 300px; 
+  width: 300px;
+  height: 300px;
 }
 
-.profile-pic {
-  position: relative;
-  z-index: 2; 
-  width: 100%; 
-}
 .flower {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   z-index: 1;
-  width: 100px;
+  width: 300px; 
   animation: float 4s ease-in-out infinite;
   opacity: 0.6;
+}
+
+.profile-pic {
+  position: absolute; /* changed from relative to absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 150px; /* adjust to fit nicely within flower */
+  border-radius: 50%; /* optional: make it a circle */
+  object-fit: cover;
 }
 
 @keyframes float {
