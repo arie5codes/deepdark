@@ -103,8 +103,8 @@ main {
 
 .flower {
   position: absolute;
-  top: 40%; 
-  left: 80%;
+  top: 20%; 
+  left: 100%;
   transform: translate(-50%, -50%);
   width: 200px; 
   z-index: 0; 
@@ -115,7 +115,7 @@ main {
 .profile-pic {
   position: absolute;
   top: 35%;        
-  left: 80%;       
+  left: 120%;       
   width: 120px;
   height: 120px;
   object-fit: cover;
