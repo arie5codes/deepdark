@@ -96,6 +96,12 @@ main {
   height: 300px;
 }
 
+.profile-pic {
+  position: relative;
+  z-index: 2; 
+  width: 100%; 
+}
+
 .flower {
   position: absolute;
   top: 50%;
