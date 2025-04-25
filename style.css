@@ -45,6 +45,9 @@ nav {
   background-color: black;
   padding: 2em;
   text-align: center;
+  position: relative;
+  height: 80px;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
 }
 
 nav a {
