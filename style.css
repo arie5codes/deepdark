@@ -87,19 +87,18 @@ main {
 }
 
 .about-page {
-  text-align: center;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
 }
 
 .container {
   position: relative;
-  width: 300px;
-  height: 300px;
-}
-
-.profile-pic {
-  position: relative;
-  z-index: 2; 
-  width: 100%; 
+  width: 100vw;
+  height: 100vh;
+  background-color: #0f1f0f;
+  overflow: hidden;
 }
 
 .flower {
@@ -114,13 +113,13 @@ main {
 }
 
 .profile-pic {
-  position: absolute; /* changed from relative to absolute */
-  top: 50%;
-  left: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 150px; /* adjust to fit nicely within flower */
-  border-radius: 50%; /* optional: make it a circle */
+  border-radius: 50%;
   object-fit: cover;
 }
 
