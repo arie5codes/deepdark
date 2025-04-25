@@ -103,12 +103,13 @@ main {
 
 .flower {
   position: absolute;
-  top: 50%;
+  top: 40%; 
   left: 50%;
-  transform: translate(-100%, -50%) translate(0, -100px); 
-  width: 100%;
-  z-index: 1;
+  transform: translate(-50%, -50%);
+  width: 200px; 
+  z-index: 0; 
   animation: float 4s ease-in-out infinite;
+  opacity: 0.6;
 }
 
 .profile-pic {
