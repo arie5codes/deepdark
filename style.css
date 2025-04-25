@@ -42,13 +42,13 @@ body {
 
 
 nav {
-  background-color: #fff1d0;
+  background-color: black;
   padding: 2em;
   text-align: center;
 }
 
 nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   margin: 0 50px;
   font-weight: bold;
@@ -59,7 +59,7 @@ nav a {
 nav a.active,
 nav a:hover {
   text-decoration: wavy underline;
-  background-color: #fefae0;
+  background-color: gray;
   padding: 6px 10px;         
   border-radius: 4px;   
   transition: all 0.2s ease-in-out;
