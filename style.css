@@ -103,8 +103,8 @@ main {
 
 .flower {
   position: absolute;
-  top: 20%; 
-  left: 130%;
+  top: 24%; 
+  left: 125%;
   transform: translate(-50%, -50%);
   width: 200px; 
   z-index: 0; 
