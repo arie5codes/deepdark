@@ -112,6 +112,24 @@ main {
   opacity: 0.6;
 }
 
+#disqus_thread {
+  margin-top: 2em;
+  padding: 1em;
+  background: #111;
+  border: 2px solid crimson;
+  border-radius: 10px;
+  box-shadow: 0 0 10px crimson;
+}
+
+.comment-heading {
+  font-family: 'Eater', cursive; /* your horror font */
+  color: crimson;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+
 .profile-pic {
   position: absolute;
   top: 60%;        
