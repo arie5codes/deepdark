@@ -106,7 +106,7 @@ main {
   top: 25%; 
   left: 120%;
   transform: translate(-50%, -50%);
-  width: 200px; 
+  width: 250px; 
   z-index: 0; 
   animation: float 4s ease-in-out infinite;
   opacity: 0.6;
