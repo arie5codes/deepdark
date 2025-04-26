@@ -99,14 +99,14 @@ main {
   margin-top: 2em;
   padding: 1em;
   background: #111;
-  border: 2px solid crimson;
+  border: 2px solid blue;
   border-radius: 10px;
-  box-shadow: 0 0 10px crimson;
+  box-shadow: 0 0 10px blue;
 }
 
 .comment-heading {
-  font-family: 'Eater', cursive; /* your horror font */
-  color: crimson;
+  font-family: 'Eater', cursive; 
+  color: blue;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 1em;
