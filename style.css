@@ -104,7 +104,7 @@ main {
 .flower {
   position: absolute;
   top: 25%; 
-  left: 123%;
+  left: 121%;
   transform: translate(-50%, -50%);
   width: 200px; 
   z-index: 0; 
