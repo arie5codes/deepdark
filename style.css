@@ -99,14 +99,14 @@ main {
   margin-top: 2em;
   padding: 1em;
   background: #111;
-  border: 2px solid #283444;
+  border: 2px solid #3a5880;
   border-radius: 10px;
-  box-shadow: 0 0 10px #283444;
+  box-shadow: 0 0 10px #3a5880;
 }
 
 .comment-title {
   font-family: 'Bigelow Rules';
-  color: #283444;
+  color: #3a5880;
   text-align: center;
   font-size: 2em;
   margin-bottom: 1em;
