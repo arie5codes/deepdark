@@ -127,7 +127,7 @@ main {
   top: 25%;
   left: 110%;
   transform: translate(-50%, -50%);
-  width: 80%; /* scale flower with container */
+  width: 100%;
   max-width: 250px; 
   z-index: 0; 
   animation: float 4s ease-in-out infinite;
