@@ -14,7 +14,7 @@ body {
 }
 
 .comic1-back {
-  background-color: #5a2830;
+  background-color: #681212;
  }
 
 .site-footer {
@@ -123,8 +123,8 @@ main {
 
 .flower {
   position: absolute;
-  top: 25%;
-  left: 110%;
+  top: 20%;
+  left: 60%;
   transform: translate(-50%, -50%);
   width: 100%;
   max-width: 250px; 
