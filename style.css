@@ -10,11 +10,11 @@ body {
 }
 
 .index-back {
- background-color: #742222;
+ background-color: #2f4a6c;
 }
 
 .comic1-back {
-  background-color: #33415c;
+  background-color: #5a2830;
  }
 
 .site-footer {
@@ -111,7 +111,6 @@ main {
   font-size: 2rem;
   margin-bottom: 1em;
 }
-
 
 .container {
   position: relative;
