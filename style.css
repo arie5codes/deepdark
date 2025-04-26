@@ -95,23 +95,6 @@ main {
   text-align: center;
 }
 
-.container {
-  position: relative;
-  width: 300px;
-  height: 300px;
-}
-
-.flower {
-  position: absolute;
-  top: 25%; 
-  left: 110%;
-  transform: translate(-50%, -50%);
-  width: 250px; 
-  z-index: 0; 
-  animation: float 4s ease-in-out infinite;
-  opacity: 0.6;
-}
-
 #disqus_thread {
   margin-top: 2em;
   padding: 1em;
@@ -130,18 +113,42 @@ main {
 }
 
 
+.container {
+  position: relative;
+  width: 30vw; /* flex with screen */
+  max-width: 300px; 
+  min-width: 200px; 
+  aspect-ratio: 1/1; /* keeps it square */
+  margin: auto;
+}
+
+.flower {
+  position: absolute;
+  top: 25%;
+  left: 110%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* scale flower with container */
+  max-width: 250px; 
+  z-index: 0; 
+  animation: float 4s ease-in-out infinite;
+  opacity: 0.6;
+}
+
 .profile-pic {
   position: absolute;
-  top: 60%;        
-  left: 150%;       
-  width: 120px;
-  height: 120px;
+  top: 60%;
+  left: 150%;
+  width: 40%; /* scale profile with container */
+  max-width: 120px;
+  height: auto; /* keep aspect ratio */
+  aspect-ratio: 1/1; /* force square circle */
   object-fit: cover;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
+
 
 @keyframes float {
   0% { transform: translateY(0); }
