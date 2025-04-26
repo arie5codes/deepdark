@@ -114,10 +114,10 @@ main {
 
 .container {
   position: relative;
-  width: 30vw; /* flex with screen */
+  width: 30vw; 
   max-width: 300px; 
   min-width: 200px; 
-  aspect-ratio: 1/1; /* keeps it square */
+  aspect-ratio: 1/1; 
   margin: auto;
 }
 
@@ -137,11 +137,10 @@ main {
   position: absolute;
   top: 60%;
   left: 150%;
-  width: 40%; /* scale profile with container */
+  width: 40%; 
   max-width: 120px;
-  height: auto; /* keep aspect ratio */
-  aspect-ratio: 1/1; /* force square circle */
-  object-fit: cover;
+  height: auto; 
+  aspect-ratio: 1/1;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -208,13 +207,11 @@ p {
       cursor: pointer;
       font-family: 'Grandstander', cursive;
       font-size: 1.3em;
-  
 }
 
 .next:hover, .previous:hover, .startover:hover {
     color: white;
     transition: all 0.2s ease-in-out;
-  
 }
 
 .startover {
@@ -227,5 +224,4 @@ p {
       cursor: pointer;
       font-family: 'Grandstander', cursive;
       font-size: 1.3em;
-  
 }
