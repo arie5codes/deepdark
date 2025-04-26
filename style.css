@@ -104,11 +104,11 @@ main {
   box-shadow: 0 0 10px blue;
 }
 
-.comment-heading {
+.comment-title {
   font-family: 'Eater', cursive; 
   color: blue;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 1em;
 }
 
