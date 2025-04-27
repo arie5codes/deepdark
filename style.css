@@ -117,7 +117,6 @@ main {
   text-align: center;
 }
 
-/* Create BLOBS */
 .comment-title::before,
 .comment-title::after {
   content: '';
@@ -125,7 +124,6 @@ main {
   background: darkred;
   border-radius: 50%;
 }
-
 
 .comment-title::before {
   width: 20px;
