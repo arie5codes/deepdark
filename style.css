@@ -123,7 +123,7 @@ main {
   max-width: 300px; 
   min-width: 200px; 
   aspect-ratio: 1/1; 
-  margin: auto;
+  margin: 0;
 }
 
 .flower {
