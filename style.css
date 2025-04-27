@@ -104,56 +104,6 @@ main {
   box-shadow: 0 0 10px #3a5880;
 }
 
-.comment-title {
-  position: relative;
-  display: inline-block;
-  padding: 1em 2em;
-  background: darkred;
-  color: white;
-  font-family: 'Grandstander', cursive;
-  font-size: 2.5rem;
-  border-radius: 10px;
-  overflow: hidden;
-  text-align: center;
-}
-
-.comment-title::before,
-.comment-title::after {
-  content: '';
-  position: absolute;
-  background: darkred;
-  border-radius: 50%;
-}
-
-.comment-title::before {
-  width: 20px;
-  height: 20px;
-  bottom: -10px;
-  left: 20%;
-  box-shadow:
-    30px 10px 0 0 darkred,
-    60px 5px 0 0 darkred,
-    90px 12px 0 0 darkred;
-}
-
-.comment-title::after {
-  width: 10px;
-  height: 10px;
-  bottom: -5px;
-  left: 25%;
-  box-shadow:
-    35px 8px 0 0 darkred,
-    65px 4px 0 0 darkred,
-    95px 10px 0 0 darkred;
-}
-
-.comment-box {
-    position: relative;
-    overflow: visible; 
-    text-align: center;
-    margin: 3em 0;
-  }
-
 .container {
   position: relative;
   width: 30vw; 
@@ -265,4 +215,57 @@ p {
       cursor: pointer;
       font-family: 'Grandstander', cursive;
       font-size: 1.3em;
+}
+
+/* --- Blood Dripping Effect for Comment Title --- */
+
+.comment-box {
+  position: relative;
+  overflow: visible; 
+  text-align: center;
+  margin: 3em 0;
+}
+
+.comment-title {
+  position: relative;
+  display: inline-block;
+  padding: 1em 2em;
+  background: darkred;
+  color: white;
+  font-family: 'Creepster', cursive; /* better horror font */
+  font-size: 2.5rem;
+  border-radius: 0 0 50% 50% / 0 0 10% 10%;
+  text-align: center;
+  overflow: visible;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+}
+
+/* BLOOD DROP below the title */
+.comment-title::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 20px;
+  height: 40px;
+  background: darkred;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  animation: drip 2.5s infinite ease-in-out;
+}
+
+/* BLOOD DRIP ANIMATION */
+@keyframes drip {
+  0% {
+    transform: translateX(-50%) translateY(0) scaleY(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) translateY(15px) scaleY(1.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(-50%) translateY(30px) scaleY(0.3);
+    opacity: 0;
+  }
 }
