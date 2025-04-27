@@ -217,8 +217,6 @@ p {
       font-size: 1.3em;
 }
 
-/* --- Blood Dripping Effect for Comment Title --- */
-
 .comment-box {
   position: relative;
   overflow: visible; 
@@ -240,7 +238,6 @@ p {
   box-shadow: 0 10px 20px rgba(0,0,0,0.7);
 }
 
-/* BLOOD DROP below the title */
 .comment-title::after {
   content: '';
   position: absolute;
@@ -254,7 +251,6 @@ p {
   animation: drip 2.5s infinite ease-in-out;
 }
 
-/* BLOOD DRIP ANIMATION */
 @keyframes drip {
   0% {
     transform: translateX(-50%) translateY(0) scaleY(1);
