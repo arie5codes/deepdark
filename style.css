@@ -147,6 +147,12 @@ main {
     95px 10px 0 0 darkred;
 }
 
+.comment-box {
+    position: relative;
+    overflow: visible; 
+    text-align: center;
+    margin: 3em 0;
+  }
 
 .container {
   position: relative;
