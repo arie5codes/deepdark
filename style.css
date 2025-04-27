@@ -106,9 +106,10 @@ main {
 
 .comment-title {
   font-family: 'Grandstander', cursive;
-  color: black;
+  color: white;
   text-align: center;
   font-size: 2em;
+  background-color: #000;
   margin-bottom: 0.5em;
 }
 
