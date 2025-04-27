@@ -8,28 +8,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Eater&family=Germania+One&display=swap" rel="stylesheet">
-  <body class="index-back">
-</head>
-<body>
+</head> <!-- fix wrong body tag -->
+<body class="index-back">
   <nav>
     <a href="index.html" class="active">Home</a>
     <a href="comic.html">Comic</a>
     <a href="about.html">About</a>
   </nav>
+
   <main>
     <h1></h1>
     <p></p>
     <h2></h2>
+    
     <div class="title">
       <a href="https://www.peanuts.com/about/snoopy" target="_blank">
         <img src="" alt="" class="" />
       </a>
     </div>
-    <div class="comment-box">
+
+    <!-- COMMENT BOX with drips -->
+    <section class="comment-box">
+      <div class="drip"></div>
+      <div class="drip"></div>
+      <div class="drip"></div>
+
       <p class="comment-title">Comments</p>
-    </div>
-    <div id="disqus_thread"></div>
-    
+      <div id="disqus_thread"></div>
+    </section>
+
+    <!-- Disqus Script -->
     <script>
       var disqus_config = function () {
         this.page.url = window.location.href; 
@@ -38,7 +46,7 @@
 
       (function() {
         var d = document, s = d.createElement('script');
-        s.src = 'https://deepdark.disqus.com/embed.js';
+        s.src = 'https://deepdark.disqus.com/embed.js'; 
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
       })();
