@@ -219,34 +219,34 @@ p {
 
 .comment-title {
   position: relative;
-  display: inline-block;
+  display: block;
+  margin: 2em auto; /* center it! */
+  width: fit-content; /* shrink to text size */
   padding: 1em 2em;
   background: darkred;
   color: white;
-  font-family: 'Creepster', cursive; /* Horror font */
+  font-family: 'Creepster', cursive; /* horror font */
   font-size: 2.5rem;
   text-align: center;
-  border-bottom-left-radius: 50% 20%;
-  border-bottom-right-radius: 50% 20%;
+  border-radius: 0 0 30px 30px; /* more like dripping shape */
   overflow: visible;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
+/* Static Blood Drips */
 .comment-title::after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  top: 100%;
   left: 0;
   width: 100%;
-  height: 30px;
+  height: 50px;
   background: darkred;
-  border-bottom-left-radius: 50% 40%;
-  border-bottom-right-radius: 50% 40%;
   clip-path: polygon(
-    0 0, 10% 30%, 15% 10%, 20% 30%, 25% 10%,
-    30% 40%, 35% 15%, 40% 40%, 45% 10%, 50% 30%, 
-    55% 10%, 60% 40%, 65% 15%, 70% 30%, 75% 10%, 
-    80% 30%, 85% 10%, 90% 30%, 95% 10%, 100% 30%, 100% 100%, 0 100%
+    0 0, 5% 20%, 10% 10%, 15% 30%, 20% 10%, 25% 30%,
+    30% 10%, 35% 25%, 40% 10%, 45% 30%, 50% 10%, 
+    55% 30%, 60% 10%, 65% 25%, 70% 10%, 75% 30%, 
+    80% 10%, 85% 30%, 90% 10%, 95% 20%, 100% 0, 
+    100% 100%, 0 100%
   );
 }
-
