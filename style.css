@@ -105,12 +105,16 @@ main {
 }
 
 .comment-title {
-  font-family: 'Grandstander', cursive;
+  display: inline-block;
+  padding: 1em 2em;
   color: white;
+  background: linear-gradient(to bottom, darkred 0%, red 60%, darkred 100%);
+  position: relative;
+  font-family: 'Creepster', cursive;
+  font-size: 2.5rem;
   text-align: center;
-  font-size: 2em;
-  background-color: #000;
-  margin-bottom: 0.5em;
+  border-radius: 0 0 50% 50% / 0 0 10% 10%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .container {
