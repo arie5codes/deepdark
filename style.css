@@ -220,33 +220,16 @@ p {
 .comment-title {
   position: relative;
   display: block;
-  margin: 2em auto; /* center it! */
-  width: fit-content; /* shrink to text size */
-  padding: 1em 2em;
-  background: darkred;
-  color: white;
-  font-family: 'Creepster', cursive; /* horror font */
-  font-size: 2.5rem;
+  margin: 2em auto;
+  width: fit-content;
+  color: darkred;
+  font-family: 'Eater', cursive; /* Eater is a bloody font! */
+  font-size: 3em;
   text-align: center;
-  border-radius: 0 0 30px 30px; /* more like dripping shape */
-  overflow: visible;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
-}
-
-/* Static Blood Drips */
-.comment-title::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 50px;
-  background: darkred;
-  clip-path: polygon(
-    0 0, 5% 20%, 10% 10%, 15% 30%, 20% 10%, 25% 30%,
-    30% 10%, 35% 25%, 40% 10%, 45% 30%, 50% 10%, 
-    55% 30%, 60% 10%, 65% 25%, 70% 10%, 75% 30%, 
-    80% 10%, 85% 30%, 90% 10%, 95% 20%, 100% 0, 
-    100% 100%, 0 100%
-  );
+  text-shadow: 
+    2px 2px 0 #6b0000, 
+    -2px 2px 0 #6b0000, 
+    2px -2px 0 #6b0000, 
+    -2px -2px 0 #6b0000,
+    0 4px 6px #6b0000;
 }
