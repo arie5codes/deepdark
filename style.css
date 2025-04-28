@@ -220,16 +220,16 @@ p {
 .comment-title {
   position: relative;
   display: block;
-  margin: 1em auto;
+  margin: 10.5em auto;
   width: fit-content;
-  color: darkred;
-  font-family: 'Bigelow Rules', cursive; 
+  color: white;
+  font-family: 'Bigelow Rules';
   font-size: 3em;
   text-align: center;
   text-shadow: 
-    2px 2px 0 #6b0000, 
-    -2px 2px 0 #6b0000, 
-    2px -2px 0 #6b0000, 
-    -2px -2px 0 #6b0000,
-    0 4px 6px #6b0000;
+    2px 2px 0 #005f6b, 
+    -2px 2px 0 #005f6b, 
+    2px -2px 0 #005f6b, 
+    -2px -2px 0 #005f6b,
+    0 4px 6px #005f6b;
 }
