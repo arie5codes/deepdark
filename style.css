@@ -146,6 +146,7 @@ h1, h2 {
   background-size: cover;
   background-clip: text;
   color: transparent;
+  margin-bottom: 0;
 }
 
 .song {
