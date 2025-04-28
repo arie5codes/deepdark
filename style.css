@@ -110,8 +110,7 @@ main {
   max-width: 300px; 
   min-width: 200px; 
   aspect-ratio: 1/1; 
-  margin: 0 auto; /* center container horizontally */
-}
+  margin: 0 auto; 
 
 .flower {
   position: absolute;
