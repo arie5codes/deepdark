@@ -224,3 +224,11 @@ p {
     2px 2px 4px #09294e,
     0 4px 8px #09294e;
 }
+
+.email {
+  font-family: 'Grandstander', cursive;
+  line-height: 150%;
+  font-size: 1.7em;
+  color: #000000;
+  text-align: center;
+}
