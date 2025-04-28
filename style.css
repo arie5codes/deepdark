@@ -127,8 +127,8 @@ main {
 
 .profile-pic {
   position: absolute;
-  top: 40%; 
-  left: 50%;
+  top: 50%; 
+  left: 40%;
   width: 50%; 
   max-width: 200px;
   aspect-ratio: 1/1;
