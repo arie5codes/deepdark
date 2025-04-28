@@ -220,10 +220,7 @@ p {
   font-family: 'Grandstander', cursive;
   font-size: 2em;
   text-align: center;
-  text-shadow: 
-    5px 5px 0 #09294e, 
-    -5px 5px 0 #09294e, 
-    5px -5px 0 #09294e, 
-    -5px -5px 0 #09294e,
-    0 8px 10px #09294e;
+  text-shadow:
+    2px 2px 4px #09294e,
+    0 4px 8px #09294e;
 }
