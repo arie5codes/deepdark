@@ -220,10 +220,10 @@ p {
 .comment-title {
   position: relative;
   display: block;
-  margin: 2em auto;
+  margin: 1em auto;
   width: fit-content;
   color: darkred;
-  font-family: 'Eater', cursive; /* Eater is a bloody font! */
+  font-family: 'Bigelow Rules', cursive; 
   font-size: 3em;
   text-align: center;
   text-shadow: 
