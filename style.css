@@ -220,7 +220,7 @@ p {
 .comment-title {
   position: relative;
   display: block;
-  margin: 10.5em auto;
+  margin: 0.5em auto;
   width: fit-content;
   color: white;
   font-family: 'Bigelow Rules';
