@@ -221,9 +221,9 @@ p {
   font-size: 2em;
   text-align: center;
   text-shadow: 
-    3px 3px 0 #09294e, 
-    -3px 3px 0 #09294e, 
-    3px -3px 0 #09294e, 
-    -3px -3px 0 #09294e,
-    0 4px 6px #09294e;
+    5px 5px 0 #09294e, 
+    -5px 5px 0 #09294e, 
+    5px -5px 0 #09294e, 
+    -5px -5px 0 #09294e,
+    0 8px 10px #09294e;
 }
