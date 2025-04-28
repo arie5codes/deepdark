@@ -118,7 +118,7 @@ main {
   top: 10%;
   left: 15%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 120%;
   max-width: 250px; 
   z-index: 0; 
   animation: float 4s ease-in-out infinite;
