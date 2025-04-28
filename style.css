@@ -215,7 +215,7 @@ p {
 .comment-title {
   position: relative;
   display: block;
-  margin: 0.2em auto;
+  margin: 0em auto;
   width: fit-content;
   color: white;
   font-family: 'Grandstander', cursive;
