@@ -118,8 +118,8 @@ main {
   top: 20%;
   left: 60%;
   transform: translate(-50%, -20%);
-  width: 200%; /* make flower bigger */
-  max-width: 400px; /* optional: allow bigger maximum size */
+  width: 230%; /* make flower bigger */
+  max-width: 450px; /* optional: allow bigger maximum size */
   z-index: 0;
   animation: floatFlower 4s ease-in-out infinite; /* use floatFlower here */
   opacity: 0.6;
