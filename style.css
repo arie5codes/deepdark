@@ -130,7 +130,7 @@ main {
   top: 40%; 
   left: 50%;
   width: 40%; 
-  max-width: 250px;
+  max-width: 200px;
   aspect-ratio: 1/1;
   border-radius: 50%;
   transform: translate(-50%, -50%); 
