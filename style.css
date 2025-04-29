@@ -51,7 +51,6 @@ nav {
 nav a {
   font-family: 'Bigelow Rules';
   color: white;
-  text-decoration: none;
   margin: 0 50px;
   font-weight: bold;
   display: inline;
@@ -61,6 +60,7 @@ nav a {
 nav a.active,
 nav a:hover {
   text-decoration: wavy underline;
+  text-underline-offset: 4px;
   font-family: 'Bigelow Rules';
   background-color: rgb(74, 70, 70);
   padding: 6px 10px;         
