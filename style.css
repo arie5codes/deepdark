@@ -164,7 +164,7 @@ h1, h2 {
 
 .song {
   font-family: 'Grandstander', cursive;
-  font-size: 1.5em;
+  font-size: 1.7em;
   color: #D2A047;
 }
 
@@ -193,7 +193,7 @@ p {
       border-radius: 5px;
       cursor: pointer;
       font-family: 'Grandstander', cursive;
-      font-size: 1.3em;
+      font-size: 1.5em;
 }
 
 .next {
@@ -205,7 +205,7 @@ p {
       border-radius: 10px;
       cursor: pointer;
       font-family: 'Grandstander', cursive;
-      font-size: 1.3em;
+      font-size: 1.5em;
 }
 
 .next:hover, .previous:hover, .startover:hover {
@@ -222,7 +222,7 @@ p {
       border-radius: 5px;
       cursor: pointer;
       font-family: 'Grandstander', cursive;
-      font-size: 1.3em;
+      font-size: 1.5em;
 }
 
 .comment-title {
