@@ -248,11 +248,11 @@ p {
 }
 
 .comment-title {
-  width: 180%;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  max-width: 200px;
-  border-radius: 8px;
+  width: 60%;         
+  max-width: 500px;   
+  height: auto;
+  display: block;
+  margin: 2rem auto;
 }
 
 .title {
