@@ -246,3 +246,16 @@ p {
   color: #ffffff;
   text-align: center;
 }
+
+.comment-title {
+  width: 50%;       
+  max-width: 300px; 
+  height: auto; 
+}
+
+.title {
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  height: 100vh;  
+}
