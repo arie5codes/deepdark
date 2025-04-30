@@ -247,36 +247,28 @@ p {
   text-align: center;
 }
 
+.title-wrapper {
+  position: relative;
+  width: fit-content;
+  margin: 2em auto;
+}
+
 .comic_title {
-  width: 80%;         
-  max-width: 500px;   
+  width: 80%;
+  max-width: 500px;
   height: auto;
   display: block;
-  margin: 2em auto;
-}
-
-.title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2em auto;
-}
-
-.clicker-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2em auto;
 }
 
 .fake-clicker {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 55%;   /* tweak to position the cursor where you want */
+  left: 70%;  /* adjust depending on where it should click */
   width: 32px;
   height: auto;
   transform: translate(-50%, -50%);
   animation: click 1s ease-in-out infinite;
+  pointer-events: none;
 }
 
 @keyframes click {
