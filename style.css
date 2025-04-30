@@ -262,8 +262,8 @@ p {
 
 .fake-clicker {
   position: absolute;
-  top: 55%;  
-  left: 70%; 
+  top: 70%;  
+  left: 90%; 
   width: 32px;
   height: auto;
   transform: translate(-50%, -50%);
