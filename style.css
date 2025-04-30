@@ -261,3 +261,26 @@ p {
   align-items: center;
   margin: 2em auto;
 }
+
+.clicker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em auto;
+}
+
+.fake-clicker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: auto;
+  transform: translate(-50%, -50%);
+  animation: click 1s ease-in-out infinite;
+}
+
+@keyframes click {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(0.9); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
