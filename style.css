@@ -171,6 +171,7 @@ h1, h2 {
 p {
   font-family: 'Grandstander', cursive;
   font-size: 1.7em;
+  line-height: normal;
   margin-top: 0;
   color: #a2bb94;
 }
