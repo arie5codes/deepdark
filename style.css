@@ -262,6 +262,12 @@ p {
   margin: 0 auto;
 }
 
+.comic_title:hover { 
+  transform: scale(3); 
+  
+  }
+
+
 .fake-clicker {
   position: absolute;
   top: 70%;  
