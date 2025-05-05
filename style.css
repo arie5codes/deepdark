@@ -259,12 +259,12 @@ p {
   max-width: 800px;
   height: auto;
   display: block;
+  transition: transform .2s;
   margin: 0 auto;
 }
 
 .comic_title:hover { 
-  transform: scale(3); 
-  
+  transform: scale(1.5); 
   }
 
 
