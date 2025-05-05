@@ -227,15 +227,21 @@ p {
 }
 
 .comment-title {
-  position: relative;
-  display: block;
-  margin: 0em auto;
-  width: fit-content;
-  color: #A0A0A0;
+  position: fixed; /* keeps it stuck on screen */
+  top: 50%;        /* vertically centered */
+  left: 0;         /* on the left side of the screen */
+  transform: translateY(-50%);
+  writing-mode: vertical-rl;  /* makes the text vertical */
+  text-orientation: upright;
   font-family: 'Grandstander', cursive;
   font-size: 1.8em;
-  text-align: center;
+  color: #A0A0A0;
+  background-color: rgba(0, 0, 0, 0.5); /* optional for visibility */
+  padding: 10px;
+  border-radius: 0 10px 10px 0; /* rounded edge on the right */
 }
+
+
 
 .email {
   font-family: 'Grandstander', cursive;
