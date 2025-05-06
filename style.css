@@ -226,11 +226,11 @@ section {
 
 .comment-title {
   transform: rotate(-90deg);
-  transform-origin: left top;
+  transform-origin: left middle;
   font-family: 'Grandstander', cursive;
   font-size: 1.5em;
   color: #A0A0A0;
-  margin-top: 2em; /* aligns with top of Disqus box */
+  margin-top: 1em; /* aligns with top of Disqus box */
   white-space: nowrap;
   height: fit-content;
 }
@@ -245,13 +245,15 @@ section {
   min-width: 200px; /* adjust as needed */
 }
 
-.email {
+email {
   font-family: 'Grandstander', cursive;
   line-height: 150%;
   font-size: 1.5em;
-  color: #A0A0A0;;
+  color: #A0A0A0;
   text-align: center;
+  margin-left: 2em; 
 }
+
 
 .title-wrapper {
   position: relative;
