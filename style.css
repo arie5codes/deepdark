@@ -226,7 +226,7 @@ section {
 
 .comment-title {
   transform: rotate(-90deg);
-  transform-origin: left middle;
+  transform-origin: left top;
   font-family: 'Grandstander', cursive;
   font-size: 1.5em;
   color: #A0A0A0;
