@@ -230,7 +230,7 @@ section {
   font-family: 'Grandstander', cursive;
   font-size: 1.5em;
   color: #A0A0A0;
-  margin-top: 8em; 
+  margin-top: 10em; 
   white-space: nowrap;
   height: fit-content;
 }
@@ -251,7 +251,7 @@ section {
   font-size: 1.5em;
   color: #A0A0A0;
   text-align: center;
-  margin-left: 2em; 
+  margin-left: 4em; 
 }
 
 
