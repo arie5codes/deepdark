@@ -228,21 +228,21 @@ section {
   transform: rotate(-90deg);
   transform-origin: left top;
   font-family: 'Grandstander', cursive;
-  font-size: 3em;
+  font-size: 2em;
   color: #A0A0A0;
-  margin-top: 12em; 
+  margin-top: 10em; 
   white-space: nowrap;
   height: fit-content;
 }
 
 #disqus_thread {
   margin-top: 2em;
-  padding: 1em;
+  padding: 0.5em;
   background: #111;
   border: 5px solid #3a5880;
   border-radius: 10px;
   flex: 1; /* allows the box to grow if needed */
-  min-width: 200px; /* adjust as needed */
+  min-width: 300px; /* adjust as needed */
 }
 
 .email {
