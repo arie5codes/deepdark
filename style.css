@@ -226,19 +226,20 @@ p {
       font-size: 1.5em;
 }
 
+section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
+}
+
 .comment-title {
-  position: fixed; /* keeps it stuck on screen */
-  top: 50%;        /* vertically centered */
-  left: 0;         /* on the left side of the screen */
-  transform: translateY(-50%);
-  writing-mode: vertical-rl;  /* makes the text vertical */
+  writing-mode: vertical-rl;
   text-orientation: upright;
   font-family: 'Grandstander', cursive;
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #A0A0A0;
-  background-color: rgba(0, 0, 0, 0.5); /* optional for visibility */
-  padding: 10px;
-  border-radius: 0 10px 10px 0; /* rounded edge on the right */
+  margin: 0;
+  padding: 0.5em;
 }
 
 .email {
